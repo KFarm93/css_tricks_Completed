@@ -25,9 +25,6 @@ body {
 
 .navbar ul {
   float: left;
-}
-
-.navbar ul {
   margin: 0;
 }
 
@@ -199,6 +196,10 @@ body {
 }
 
 @media (max-width: 600px) {
+
+  .navbar .navitems ul {
+    padding-left: 0;
+  }
 
   .main {
     width: 100%;
